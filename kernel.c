@@ -21,8 +21,8 @@
 // == - equal
 // make
 // cp kernel iso/boot/kernel
-// grub-mkrescue -o my_kernel.iso iso
-// qemu-system-x86_64 -cdrom my_kernel.iso
+// grub-mkrescue -o kernex.iso iso
+// qemu-system-x86_64 -cdrom kernex.iso
 volatile unsigned short* video = (unsigned short*)0xB8000;
 
 int cursor = 0;
