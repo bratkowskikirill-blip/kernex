@@ -1,0 +1,41 @@
+# The Free&OpenWare License (FOWL), Version 1.0
+
+Copyright (c) [Year] [Owner/Author]
+
+## Preamble
+
+This license is created for the greater good: to protect the most fundamental right of any Author—whether the original creator or someone creating a fork. Freedom truly means the unrestricted right to open, close, modify, or commercialize the source code at the Author's sole discretion, without ideological compulsion or forced sharing.
+
+---
+
+## Terms and Conditions
+
+### 1. Absolute Freedom of Use
+You are free to use, copy, modify, merge, publish, distribute, sublicense, sell, open, or close the source code of this software, for any commercial or non-commercial purpose, with no mandatory obligations to release your modifications or source code.
+
+### 2. Equality of Forks & Retention of Rights
+Any person or entity that forks, modifies, or derives work from this Software becomes the sole owner of their respective modifications. They retain the absolute right to keep their modifications closed-source, sell them, or distribute them under their own permissive or proprietary terms.
+
+### 3. Absolute Anti-Copyleft & Runtime Isolation
+This Software, in whole or in part, **MUST NEVER** be linked, bundled, merged, imported, executed in the same process memory/address space, or combined in any form with any software released under any copyleft license.
+
+This prohibition strictly applies to **all levels and stages**, including but not limited to:
+* **Static and Dynamic Linking:** Compiling together, dynamic library loading (`.dll`, `.so`, `.dylib`), or Java class-loading;
+* **Runtime & RAM Execution:** Executing alongside, inside the same virtual machine (JVM, CLR, JS Engine), or sharing process memory / RAM state with copyleft software;
+* **Bundling & Distributions:** Including this Software alongside copyleft software in the same modpack, software distribution, container image, or combined package, where they interact at runtime or depend on each other.
+
+This restriction applies without exception to:
+* **Strong Copyleft** (e.g., GNU GPL, AGPL);
+* **Weak / File-Level Copyleft** (e.g., GNU LGPL, Mozilla Public License (MPL), Eclipse Public License (EPL), CDDL);
+* Any other license imposing source-sharing or copyleft obligations.
+
+### 4. Prohibition of Relicensing
+To permanently protect this Software from being converted into copyleft-compatible or copyleft-governed software, **relicensing of the original Software code itself is strictly prohibited**. 
+
+No user, fork author, or downstream distributor has the right to remove, alter, or replace this License for the original lines of code provided under it. Derivative works may be wrapped in proprietary terms, but the underlying FOWL-covered code remains permanently governed by FOWL.
+
+---
+
+## Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
