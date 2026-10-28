@@ -1,4 +1,4 @@
 # kernex
-just a kernel me creating
+just a kernel me creatingn't
 
 stillborn project
